@@ -1,0 +1,78 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  color: var(--ifm-color-white);
+}
+
+.heroBanner :global(.hero__title),
+.heroBanner :global(.hero__subtitle) {
+  color: var(--ifm-color-white);
+}
+
+.section {
+  padding: 4rem 0;
+  background-color: var(--ifm-background-color);
+}
+
+.section:nth-child(even) {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.sectionTitle {
+  margin-bottom: 2rem;
+  color: var(--ifm-color-primary);
+  text-align: center;
+}
+
+.sectionContent {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.sectionContent h3 {
+  color: var(--ifm-color-primary);
+  margin-top: 2rem;
+}
+
+.sectionContent ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sectionContent li {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.sectionContent li:before {
+  content: "•";
+  color: var(--ifm-color-primary);
+  position: absolute;
+  left: 0;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+  
+  .section {
+    padding: 2rem 0;
+  }
+}
