@@ -15,6 +15,7 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-navbar-background-color: #0a192f;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,4 +28,34 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-navbar-background-color: #0a192f;
+}
+
+/* Custom navbar styling for both light and dark modes */
+.navbar {
+  background-color: var(--ifm-navbar-background-color);
+}
+
+.navbar__title,
+.navbar__link,
+.navbar__brand {
+  color: var(--ifm-color-white) !important;
+}
+
+.navbar__link:hover {
+  color: var(--ifm-color-primary-lighter) !important;
+}
+
+/* Theme toggle button styling */
+[class*='colorModeToggle_'] {
+  color: var(--ifm-color-white) !important;
+}
+
+[class*='colorModeToggle_']:hover {
+  color: var(--ifm-color-primary-lighter) !important;
+}
+
+/* Ensure the toggle icon itself is also white */
+[class*='toggleIcon_'] {
+  color: var(--ifm-color-white) !important;
 }
