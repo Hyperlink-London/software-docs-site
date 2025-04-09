@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Hyperlink London',
-  tagline: 'Pioneering the future of transportation through Hyperloop technology with a team of 70+ talented students from across London',
+  tagline: '',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
