@@ -1,0 +1,7 @@
+{
+  "name": "software-docs-site",
+  "compatibility_date": "2024-04-09",
+  "assets": {
+    "directory": "./build"
+  }
+}
