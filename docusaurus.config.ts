@@ -99,8 +99,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Software Documentation',
+              to: '/docs/software-documentation/intro',
             },
           ],
         },
