@@ -17,8 +17,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Hyperlink-London', // Usually your GitHub org/user name.
+  projectName: 'software-docs-site', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -76,13 +76,19 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
+          sidebarId: 'softwareDocsSidebar',
+          position: 'left',
+          label: 'Software Documentation',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Software Docs',
+          label: 'Docusaurus Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Hyperlink-London',
           label: 'GitHub',
           position: 'right',
         },
