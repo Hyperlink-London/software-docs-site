@@ -74,11 +74,17 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
+          sidebarId: 'softwareDocsSidebar',
+          position: 'left',
+          label: 'Software Documentation',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Software Docs',
+          label: 'Docusaurus Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/Hyperlink-London/software-docs-site',
           label: 'GitHub',
