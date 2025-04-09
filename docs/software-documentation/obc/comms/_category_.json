@@ -1,0 +1,8 @@
+{
+  "label": "Communications",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentation for communication protocols and interfaces used in the On-Board Computer system"
+  }
+} 
