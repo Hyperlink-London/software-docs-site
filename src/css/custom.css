@@ -68,3 +68,8 @@
 .navbar__toggle:hover {
   color: var(--ifm-color-primary-lighter) !important;
 }
+
+
+img {
+  border-radius: 10px; /* Adjust the value for more or less rounding */
+}
