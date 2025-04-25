@@ -19,7 +19,7 @@ To maintain consistency and clarity in our codebase, we follow these naming conv
   - Example: `user_name`, `total_amount`
 
 - **IDs**:  
-  - Use both captialised ID for names
+  - Use both capitalised ID for names
   - Example: `userID`, `orderID`, `transactionID`
 
 - **Curly Brackets**

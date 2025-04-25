@@ -17,7 +17,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'HyperLink London', // Usually your GitHub org/user name.
+  organizationName: 'HyperLink London', // Usually your GitHub org/username.
   projectName: 'software-docs-site', // Usually your repo name.
 
   onBrokenLinks: 'throw',
