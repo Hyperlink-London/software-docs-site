@@ -17,7 +17,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'HyperLink London', // Usually your GitHub org/user name.
+  organizationName: 'HyperLink London', // Usually your GitHub org/username.
   projectName: 'software-docs-site', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -60,9 +60,15 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
+          sidebarId: 'softwareDocsSidebar',
+          position: 'left',
+          label: 'Software Documentation',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Software Docs',
+          label: 'Docusaurus Tutorial',
         },
         {to: '/team', label: 'Team', position: 'left'},
         {to: '/leadership', label: 'Leadership', position: 'left'},
@@ -80,8 +86,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Software Documentation',
+              to: '/docs/software-documentation/intro',
             },
           ],
         },

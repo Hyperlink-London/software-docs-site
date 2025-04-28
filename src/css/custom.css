@@ -59,3 +59,17 @@
 [class*='toggleIcon_'] {
   color: var(--ifm-color-white) !important;
 }
+
+/* Mobile menu button styling */
+.navbar__toggle {
+  color: var(--ifm-color-white) !important;
+}
+
+.navbar__toggle:hover {
+  color: var(--ifm-color-primary-lighter) !important;
+}
+
+
+img {
+  border-radius: 10px; /* Adjust the value for more or less rounding */
+}
