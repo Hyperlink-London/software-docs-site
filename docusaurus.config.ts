@@ -134,7 +134,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} HyperLink London. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} HyperLink London. Built with <a href="https://docusaurus.io/" target="_blank" rel="noopener" aria-label="Docusaurus">Docusaurus</a>.`,
     },
     prism: {
       theme: prismThemes.github,
