@@ -73,3 +73,11 @@
 img {
   border-radius: 10px; /* Adjust the value for more or less rounding */
 }
+
+.footer, .footer-dark {
+  --ifm-footer-background-color: #fff;
+  --ifm-footer-color: #222;
+  --ifm-footer-link-color: #2e8555;
+  --ifm-footer-link-hover-color: #277148;
+  --ifm-footer-title-color: #222;
+}
